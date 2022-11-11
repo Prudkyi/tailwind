@@ -1,0 +1,11 @@
+@import "variables/var";
+@import "nav";
+
+body {
+  background-color: #444;
+  color: $color-second;
+}
+
+.mybut {
+  color: red;
+}
