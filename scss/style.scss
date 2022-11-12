@@ -2,10 +2,31 @@
 @import "nav";
 
 body {
-  background-color: #444;
+  background-color: green;
   color: $color-second;
 }
 
 .mybut {
-  color: grey;
+  color: #444;
+  background-color: yellow;
+  border: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+
+.block {
+  &__top {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  &__top-icon {
+  }
+
+  &__footer {
+  }
+}
+.mybut {
 }
